@@ -6,39 +6,49 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/bootstrap-theme.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="/js/bootstrap.js"></script>
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              Limelight
+            </a>
           </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Github Links<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://github.com/limelight-stream">Limelight-stream</a></li>
+                  <li><a href="https://github.com/limelight-stream/limelight-pc">Limelight-pc</a></li>
+                  <li><a href="https://github.com/limelight-stream/limelight-android">Limelight-android</a></li>
+                  <li><a href="https://github.com/limelight-stream/limelight-common">Limelight-common</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
+      </div>
 
+      <div class="container">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="well">
+          {{ content }}
+        </div>
+      </div>
     </body>
 </html>
