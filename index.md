@@ -19,8 +19,8 @@ the links below.
 * [Limelight-pc](https://github.com/limelight-stream/limelight-pc) allows
   streaming to Linux/OSX/Windows.
 
-Limelight was initially created by [Case Western](http://case.edu) students at
-the [MHacks](http://mhacks.org) hackathon.
+Limelight was created by [Case Western](http://case.edu) students as a project
+at the [MHacks](http://mhacks.org) hackathon.
 
 You can follow along with Limelight development at the [XDA
 Thread](http://forum.xda-developers.com/showthread.php?t=2505510).
