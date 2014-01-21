@@ -103,7 +103,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #208000;
+  color: #269a00;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -121,7 +121,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #208000;
+  color: #269a00;
   text-decoration: underline;
 }
 
@@ -277,7 +277,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #208000 no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #269a00 no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
