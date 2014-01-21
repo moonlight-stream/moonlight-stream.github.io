@@ -298,6 +298,7 @@ Full-Width Styles
 }
 
 #project_title {
+  background: url('../images/limelight.png') no-repeat left 50%;
   margin: 0;
   color: #fff;
   font-size: 42px;
