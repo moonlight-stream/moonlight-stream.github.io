@@ -98,12 +98,12 @@ p {
 }
 
 footer p {
-  color: #f2f2f2;
+  color: #33cc00;
 }
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #33cc00;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -121,7 +121,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+  color: #33cc00;
   text-decoration: underline;
 }
 
