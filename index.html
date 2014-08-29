@@ -1,105 +1,235 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
+	<head>
+		<title>Limelight Game Streaming</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Limelight : An open source implementation of NVIDIA Gamestream" />
+		<!-- Header -->
+			<div id="header-wrapper" class="wrapper">
+				<div id="header">
+					
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="index.html">Limelight</a></h1>
+							<p>An open source NVIDIA GameStream client</p>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+						</div>
+					
+					<!-- Nav -->
+					
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="index.html">Home</a></li>
+								<li><a href="https://github.com/limelight-stream">Github</a></li>
+									
+								<li><a href="#">Downloads</a>
+									<ul>
+										<li><a href="https://play.google.com/store/apps/details?id=com.limelight">Android</a></li>
+										<li><a href="http://www.amazon.com/gp/product/B00JK4MFN2">Amazon</a></li>
+										<li><a href="https://github.com/limelight-stream/limelight-pc/releases">PC</a> (Pre-Release)</li>
+										<li><a href="https://github.com/limelight-stream/limelight-wp">Windows Phone</a> (Coming Soon)</li>
+										<li><a href="https://github.com/limelight-stream/limelight-ios">iOS</a> (Coming Soon) </li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
 
-    <title>Limelight</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/limelight-stream">View on GitHub</a>
-
-          <h1 id="project_title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Limelight</h1>
-          <h2 id="project_tagline">An open source implementation of NVIDIA GameStream clients</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="what-is-limelight" class="anchor" href="#what-is-limelight"><span class="octicon octicon-link"></span></a>What is Limelight?</h3>
-
-<p>Limelight is an open source implementation of NVIDIA's GameStream protocol. We reverse-engineered the protocol used by the NVIDIA Shield and implemented a set of 3rd party clients.</p>
-
-<p>What does this mean for you? Limelight allows you to stream your full collection of Steam games from your <a href="http://shield.nvidia.com/play-pc-games/">GFE compatible PC</a> to any of your supported devices. </p>
-
-<h3>
-<a name="download" class="anchor" href="#download"><span class="octicon octicon-link"></span></a>Download</h3>
-
-<p>Currently, Limelight is supported for streaming to your PC and to Android. Follow the links for information about how to get Limelight up and running yourself. </p>
-
-<ul>
-<li>
-<a href="https://github.com/limelight-stream/limelight-android/releases">Limelight-android</a>
-allows streaming to any compatible Android device.</li>
-<a href="https://play.google.com/store/apps/details?id=com.limelight">
-  <img alt="Get it on Google Play"
-       src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
-</a>
-<a href="http://www.amazon.com/gp/product/B00JK4MFN2">
-  <img alt="Available at Amazon appstore for Android"
-       src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonMobileApps/amazon-apps-store-us-black.png" 
-	   height=45/>
-</a>
-<li>
-<a href="https://github.com/limelight-stream/limelight-pc/releases">Limelight-pc</a> allows
-streaming to Linux/OSX/Windows.</li>
-<li>
-<a href="https://github.com/irtimmer/limelight-pi/releases">Limelight-pi</a> is an unofficial
-port of limelight-pc that runs on the Raspberry Pi.</li>
-</ul><h3>
-<a name="whats-next" class="anchor" href="#whats-next"><span class="octicon octicon-link"></span></a>What's Next?</h3>
-
-<p>Limelight for <a href="https://github.com/limelight-stream/limelight-iOS">iOS</a> and <a href="https://github.com/limelight-stream/limelight-wp">Windows Phone</a> are in development. Stay tuned!</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>Limelight was created by <a href="http://case.edu">Case Western</a> students as a project at the <a href="http://mhacks.org">MHacks</a> hackathon in 2013 and further developed at MHacks and <a href="http://hackcwru.com">HackCWRU</a> in 2014. <br />
-<ul>
-<li><a href="https://github.com/cgutman" class="user-mention">Cameron Gutman</a></li>
-<li><a href="https://github.com/dwaxemberg" class="user-mention">Diego Waxemberg</a></li>
-<li><a href="https://github.com/aaronneyer" class="user-mention">Aaron Neyer</a></li>
-<li><a href="https://github.com/yetanothername" class="user-mention">Andrew Hennessy</a></li>
-<li><a href="https://github.com/mrb113" class="user-mention">Michelle Bergeron</a></li>
-</ul></p>
-
-<h3>
-<a name="follow-along" class="anchor" href="#follow-along"><span class="octicon octicon-link"></span></a>Follow Along</h3>
-
-<p>Want to keep up with the latest Limelight updates? Keep up with development at the <a href="http://forum.xda-developers.com/showthread.php?t=2505510">XDA Developers
-Thread</a>.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>&copy; <script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script>. All rights reserved.</p>
-      </footer>
-    </div>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-47339221-1', 'limelight-stream.com');
-  ga('send', 'pageview');
-
-</script>
-
-  </body>
+				</div>
+			</div>
+		
+		<!-- Intro -->
+			<div id="intro-wrapper" class="wrapper style1">
+				<div class="title">What is Limelight?</div>
+				<section id="intro" class="container">
+					<p class="style2">
+						 Limelight allows you to stream your collection of Steam games from your PC to another device.
+					</p>
+					<p class="style3"><strong>Limelight</strong> is an open source implementation of NVIDIA's GameStream protocol. 
+					We reverse-engineered the protocol used by the NVIDIA Shield and implemented a set of 3rd party clients.</p> 
+					<br />
+					<p class="style3"><strong>What does this mean for you?</strong> Limelight allows you to stream your full collection of Steam games from your <a href = http://shield.nvidia.com/play-pc-games/>GFE compatible PC</a> to any of your supported devices and play them.
+					Right now, you can stream to your Android device or even another PC. Limelight is perfect for gameplay on the go without sacrificing the graphics quality of your gaming computer.</p>
+				</section>
+			</div>
+		
+		<!-- Main -->
+			<div class="wrapper style2">
+				<div class="title">Limelight in Action</div>
+				<div id="main" class="container">
+				
+					<!-- Image -->
+						<a href="#" class="image featured">
+							<img src="images/steam_framed.png" alt="" />
+						</a>
+					
+					<!-- Features -->
+						<section id="features">
+							<header class="style1">
+								<h2>What can Limelight do for you?</h2>
+							</header>
+							<div class="feature-list">
+								<div class="row">
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-rss">Low-Latency Streaming</h3>
+											<p>When you're playing games on <strong>Limelight</strong> over a fast network, you won't notice any lag.</p>
+										</section>
+									</div>
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-play">Play Any Game</h3>
+											<p>If you can play it in Steam Big Picture mode on your PC, you can play it using <strong>Limelight</strong>.</p>
+										</section>
+									</div>
+								</div>
+								<div class="row">
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-gamepad">Controller Support</h3>
+											<p>Connect your <strong>Limelight</strong> device to a supported controller for a more immersive gaming experience.</p>
+										</section>
+									</div>
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-refresh">Multiple Platforms</h3>
+											<p>If you have an Android device or PC, you can use <strong>Limelight</strong> to stream to it. Have a Windows Phone or iOS device? We haven't forgotten about you; Limelight is coming soon to these platforms.</p>
+										</section>
+									</div>
+								</div>
+								<div class="row">
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-code">Open Source</h3>
+											<p>All of our code for each of our <strong>Limelight</strong> clients is hosted on our <a href="https://github.com/limelight-stream">Github</a>, and we welcome contributions.</p>
+										</section>
+									</div>
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-check">Completely Free</h3>
+											<p><strong>Limelight</strong> is free to download and 100% ad-free</p>
+										</section>
+									</div>
+								</div>
+							</div>
+						</section>
+				
+				</div>
+			</div>
+		
+		<!-- Downloads -->
+			<div class="wrapper style3">
+				<div class="title">Download Limelight</div>
+				<div id="highlights" class="container">
+					<div class="row oneandhalf">
+					
+						<div class="4u">
+							
+							<section class="highlight">
+								<h3><a href="https://github.com/limelight-stream/limelight-pc/releases">Limelight PC</a></h3>
+								<p>Stream to Windows, Mac, or Linux</p>
+								<ul class="actions">
+									<li><a href="https://github.com/limelight-stream/limelight-pc/releases" class="button style1">Download</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="highlight">
+								
+								<h3><a href="https://play.google.com/store/apps/details?id=com.limelight">Limelight Android</a></h3>
+								<p>Stream to any compatible Android device</p>
+								<ul class="actions">
+									<a href="https://play.google.com/store/apps/details?id=com.limelight"><img src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" height="60" alt="Download" /></a>
+									<a href="http://www.amazon.com/gp/product/B00JK4MFN2"><img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonMobileApps/amazon-apps-store-us-black.png" alt="Download" height="59"/></a>
+									
+								</ul>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="highlight">
+								
+								<h3><a href="#">Limelight Pi</a></h3>
+								<p>Unofficial port of that runs on the Raspberry Pi</p>
+								<ul class="actions">
+									<li><a href="#" class="button style1">Download</a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				<div class="row oneandhalf">
+					
+						<div class="4u">
+							
+							<section class="highlight">
+								
+								<h3><a href="https://github.com/limelight-stream/limelight-wp">Limelight Windows Phone</a></h3>
+								<p>Stream to Windows Phone 8.1 devices</p>
+								<ul class="actions">
+									<li><a href="https://github.com/limelight-stream/limelight-wp" class="button style1">Coming Soon</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="highlight">								
+								<h3><a href="https://github.com/limelight-stream/limelight-ios">Limelight iOS</a></h3>
+								<p>Stream to iOS Devices</p>
+								<ul class="actions">
+									<li><a href="https://github.com/limelight-stream/limelight-ios" class="button style1">Coming Soon</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="highlight">
+								
+								<h3><a href="https://github.com/limelight-stream/limelight-wp">Limelight Windows 8 Store App</a></h3>
+								<p>Stream to Windows 8 Devices</p>
+								<ul class="actions">
+									<li><a href="https://github.com/limelight-stream/limelight-wp" class="button style1">Coming Soon</a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+			
+			<!--- Who We Are --->
+			<div id="intro-wrapper" class="wrapper style1">
+				<div class="title">Who We Are</div>
+				<section id="intro" class="container">
+					
+					<p class="style3">Limelight was created by <a href="http://case.edu">Case Western</a> students as a project at the <a href="http://mhacks.org">MHacks</a> hackathon in 2013 and further developed at MHacks and <a href="http://hackcwru.com">HackCWRU</a> in 2014. <br /><br />
+						<ul>
+						<li><a href="https://github.com/cgutman" class="user-mention">Cameron Gutman</a></li>
+						<li><a href="https://github.com/dwaxemberg" class="user-mention">Diego Waxemberg</a></li>
+						<li><a href="https://github.com/aaronneyer" class="user-mention">Aaron Neyer</a></li>
+						<li><a href="https://github.com/mrb113" class="user-mention">Michelle Bergeron</a></li>
+						<li><a href="https://github.com/yetanothername" class="user-mention">Andrew Hennessy</a></li>						
+						</ul></p>
+					<p class="style3">
+					Want to keep up with the latest Limelight updates? Keep up with development at the <a href="http://forum.xda-developers.com/showthread.php?t=2505510">XDA Developers Thread</a>.
+					</p>
+				</section>
+			</div>
+	</body>
 </html>
