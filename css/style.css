@@ -359,7 +359,7 @@
 			input[type="reset"].style1,
 			.button.style1
 			{
-				background: #e97770 url('images/overlay.png');
+				background: #000000 url('images/overlay.png');
 				color: #fff;
 			}
 
@@ -368,7 +368,7 @@
 				input[type="reset"].style1:hover,
 				.button.style1:hover
 				{
-					background-color: #f98780;
+					background-color: #76b900;
 				}
 				
 				input[type="button"].style1:active,
@@ -376,7 +376,7 @@
 				input[type="reset"].style1:active,
 				.button.style1:active
 				{
-					background-color: #d96760;
+					background-color: #76b900;
 				}
 
 			input[type="button"].style2,
@@ -502,7 +502,7 @@
 
 			.feature-list h3
 			{
-				color: #e97770 !important;
+				color: #76b900 !important;
 			}
 			
 				.feature-list h3:before
@@ -607,10 +607,13 @@
 			.wrapper.style1 h5,
 			.wrapper.style1 h6,
 			.wrapper.style1 strong,
-			.wrapper.style1 b,
-			.wrapper.style1 a
+			.wrapper.style1 b
 			{
 				color: #fff;
+			}
+			.wrapper.style1 a
+			{
+				color: #76b900;
 			}
 		
 		.wrapper.style2
@@ -838,7 +841,7 @@
 		
 			#highlights .highlight h3
 			{
-				color: #e97770;
+				color: #76b900;
 			}
 
 /*********************************************************************************/
