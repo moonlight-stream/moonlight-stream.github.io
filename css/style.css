@@ -368,7 +368,7 @@
 				input[type="reset"].style1:hover,
 				.button.style1:hover
 				{
-					background-color: #76b900;
+					background-color: #443266;
 				}
 				
 				input[type="button"].style1:active,
@@ -376,7 +376,7 @@
 				input[type="reset"].style1:active,
 				.button.style1:active
 				{
-					background-color: #76b900;
+					background-color: #443266;
 				}
 
 			input[type="button"].style2,
@@ -502,7 +502,7 @@
 
 			.feature-list h3
 			{
-				color: #76b900 !important;
+				color: #443266 !important;
 			}
 			
 				.feature-list h3:before
@@ -613,7 +613,7 @@
 			}
 			.wrapper.style1 a
 			{
-				color: #76b900;
+				color: #b0bcdf;
 			}
 		
 		.wrapper.style2
@@ -841,7 +841,7 @@
 		
 			#highlights .highlight h3
 			{
-				color: #76b900;
+				color: #443266;
 			}
 
 /*********************************************************************************/
