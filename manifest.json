@@ -15,6 +15,6 @@
   ],
   "start_url": "/?source=homescreen",
   "background_color": "#434343",
-  "display": "standalone",
+  "display": "browser",
   "theme_color": "#3367D6"
 }
