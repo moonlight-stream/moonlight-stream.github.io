@@ -646,6 +646,7 @@
 	#header-wrapper
 	{
 		background: url('../images/banner.jpg') center center;
+		background-color: #000000;
 		background-size: cover;
 	}
 
