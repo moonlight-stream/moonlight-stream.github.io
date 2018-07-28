@@ -38,7 +38,7 @@
 		font-weight: 700;
 		color: #484d55;
 	}
-	
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 	{
 		color: inherit;
@@ -55,7 +55,7 @@
 		-ms-transition: color .25s ease-in-out;
 		transition: color .25s ease-in-out;
 	}
-	
+
 		a:hover
 		{
 			text-decoration: none;
@@ -66,39 +66,39 @@
 		font-weight: 700;
 		color: #484d55;
 	}
-	
+
 	blockquote
 	{
 		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
-	
+
 	em, i
 	{
 		font-style: italic;
 	}
-	
+
 	hr
 	{
 		border: 0;
 		border-top: solid 1px #ddd;
 	}
-	
+
 	sub
 	{
 		position: relative;
 		top: 0.5em;
 		font-size: 0.8em;
 	}
-	
+
 	sup
 	{
 		position: relative;
 		top: -0.5em;
 		font-size: 0.8em;
 	}
-	
+
 	.nobr
 	{
 		white-space: nowrap;
@@ -108,52 +108,52 @@
 	{
 		clear: both;
 	}
-	
+
 	p, ul, ol, dl, table, blockquote, form
 	{
 		margin-bottom: 2em;
 	}
-	
+
 	/* Table */
 
 		table
 		{
 			width: 100%;
 		}
-		
+
 			table.default
 			{
 				width: 100%;
 			}
-			
+
 				table.default tbody tr:nth-child(2n+2)
 				{
 					background: #f4f4f4;
 				}
-				
+
 				table.default td
 				{
 					padding: 0.5em 1em 0.5em 1em;
 				}
-				
+
 				table.default th
 				{
 					text-align: left;
 					font-weight: 400;
 					padding: 0.5em 1em 0.5em 1em;
 				}
-			
+
 				table.default thead
 				{
 					background: #484d55;
 					color: #fff;
 				}
-				
+
 				table.default tfoot
 				{
 					background: #eee;
 				}
-				
+
 				table.default tbody
 				{
 				}
@@ -163,14 +163,14 @@
 		form
 		{
 		}
-		
+
 			form label
 			{
 				display: block;
 				font-weight: 700;
 				color: #484d55;
 			}
-		
+
 			form input[type="text"],
 			form input[type="email"],
 			form input[type="password"],
@@ -199,7 +199,7 @@
 			{
 				line-height: 1em;
 			}
-			
+
 			form textarea
 			{
 				min-height: 10em;
@@ -213,7 +213,7 @@
 				{
 					background: #f8f8f8;
 				}
-				
+
 				form .formerize-placeholder
 				{
 					color: #555 !important;
@@ -257,7 +257,7 @@
 		{
 			margin-bottom: 3em;
 		}
-		
+
 			section > :last-child,
 			article > :last-child
 			{
@@ -269,7 +269,7 @@
 			{
 				margin-bottom: 0;
 			}
-		
+
 		header.style1
 		{
 			text-align: center;
@@ -279,7 +279,7 @@
 			{
 				font-weight: 700;
 			}
-			
+
 			header.style1 p
 			{
 				color: #b1b4b9;
@@ -291,7 +291,7 @@
 		{
 			display: inline-block;
 		}
-		
+
 			.image img
 			{
 				display: block;
@@ -309,7 +309,7 @@
 				float: left;
 				margin: 0 2em 2em 0;
 			}
-			
+
 			.image.centered
 			{
 				display: block;
@@ -321,7 +321,7 @@
 					margin: 0 auto;
 					width: auto;
 				}
-				
+
 			.image.featured
 			{
 				display: block;
@@ -330,7 +330,7 @@
 			}
 
 	/* Button */
-	
+
 		input[type="button"],
 		input[type="submit"],
 		input[type="reset"],
@@ -370,7 +370,7 @@
 				{
 					background-color: #443266;
 				}
-				
+
 				input[type="button"].style1:active,
 				input[type="submit"].style1:active,
 				input[type="reset"].style1:active,
@@ -388,7 +388,7 @@
 				color: #606167;
 				box-shadow: inset 0px 0px 2px 0px #a0a1a7;
 			}
-			
+
 				input[type="button"].style2:hover,
 				input[type="submit"].style2:hover,
 				input[type="reset"].style2:hover,
@@ -396,7 +396,7 @@
 				{
 					box-shadow: inset 0px 0px 2px 0px #606167;
 				}
-			
+
 				input[type="button"].style2:active,
 				input[type="submit"].style2:active,
 				input[type="reset"].style2:active,
@@ -421,7 +421,7 @@
 				{
 					background-color: #3f434b;
 				}
-				
+
 				input[type="button"].style3:active,
 				input[type="submit"].style3:active,
 				input[type="reset"].style3:active,
@@ -437,41 +437,41 @@
 			list-style: disc;
 			padding-left: 1em;
 		}
-		
+
 			ul.default li
 			{
 				padding-left: 0.5em;
 			}
-			
+
 		ul.style2
 		{
 		}
-		
+
 			ul.style2 li
 			{
 				border-top: solid 1px #eee;
 				padding: 1.5em 0 0 0;
 				margin: 1.5em 0 0 0;
 			}
-			
+
 			ul.style2 li:first-child
 			{
 				border-top: 0;
 				padding-top: 0;
 				margin-top: 0;
 			}
-		
+
 		ul.style3
 		{
 		}
-		
+
 			ul.style3 li
 			{
 				border-top: solid 1px #eee;
 				padding: 0.5em 0 0 0;
 				margin: 0.5em 0 0 0;
 			}
-			
+
 			ul.style3 li:first-child
 			{
 				border-top: 0;
@@ -481,7 +481,7 @@
 
 		ol
 		{
-		}	
+		}
 
 			ol.default
 			{
@@ -493,7 +493,7 @@
 				{
 					padding-left: 0.25em;
 				}
-				
+
 	/* Feature List */
 
 		.feature-list
@@ -504,7 +504,7 @@
 			{
 				color: #443266 !important;
 			}
-			
+
 				.feature-list h3:before
 				{
 					position: relative;
@@ -534,7 +534,7 @@
 			-webkit-font-smoothing:antialiased;
 			-moz-osx-font-smoothing:grayscale;
 		}
-		
+
 		.icon > .label {
 			display: none;
 		}
@@ -559,7 +559,7 @@
 			font-weight: 700;
 			letter-spacing: 0.25em;
 		}
-		
+
 		.wrapper .title:before
 		{
 			content: '';
@@ -570,7 +570,7 @@
 			height: 38px;
 			background: url('images/shadow.png');
 		}
-		
+
 		.wrapper .title:after
 		{
 			content: '';
@@ -593,13 +593,13 @@
 			color: #eee;
 			color: rgba(255,255,255,0.75);
 		}
-		
+
 			.wrapper.style1 .title
 			{
 				background: #555555 url('images/overlay.png');
 				color: #fff;
 			}
-		
+
 			.wrapper.style1 h1,
 			.wrapper.style1 h2,
 			.wrapper.style1 h3,
@@ -615,29 +615,29 @@
 			{
 				color: #b0bcdf;
 			}
-		
+
 		.wrapper.style2
 		{
 			background: #fff;
 		}
-		
+
 			.wrapper.style2 .title
 			{
 				background: #fff;
 				color: #484d55;
 			}
-		
+
 		.wrapper.style3
 		{
 			background: #f3f3f3 url('images/overlay.png');
 		}
-		
+
 			.wrapper.style3 .title
 			{
 				background: #f3f3f3 url('images/overlay.png');
 				color: #484d55;
 			}
-			
+
 			.wrapper.style3 .image
 			{
 				border: solid 10px #fff;
@@ -648,7 +648,7 @@
 		background: url('../images/banner.jpg') center center;
 		background-size: cover;
 	}
-	
+
 		#header-wrapper:before
 		{
 			content: '';
@@ -659,7 +659,7 @@
 			height: 100%;
 			background: url('images/overlay.png');
 		}
-	
+
 	#footer-wrapper
 	{
 		background: #282b34 url('images/overlay.png');
@@ -740,16 +740,16 @@
 			background: #282b34 url('images/overlay.png');
 			color: #eee;
 		}
-		
+
 		#footer-wrapper header.style1
 		{
 		}
-		
+
 			#footer-wrapper header.style1 h2
 			{
 				color: #fff;
 			}
-	
+
 			#footer-wrapper header.style1 .p
 			{
 				color: inherit;
@@ -758,7 +758,7 @@
 		#footer-wrapper .feature-list
 		{
 		}
-		
+
 			#footer-wrapper .feature-list section
 			{
 				border-top-color: #333;
@@ -768,12 +768,12 @@
 			#footer-wrapper .feature-list h3
 			{
 			}
-			
+
 				#footer-wrapper .feature-list h3:before
 				{
 					background: #3d4249 url('images/overlay.png');
 				}
-		
+
 /*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
@@ -781,14 +781,14 @@
 	#logo
 	{
 	}
-	
+
 		#logo h1
 		{
 			font-weight: 900;
 			text-transform: uppercase;
 			color: #fff;
 		}
-		
+
 		#logo p
 		{
 			color: #eee;
@@ -803,11 +803,11 @@
 	#intro
 	{
 	}
-	
+
 		#intro > .style1
 		{
-		}	
-		
+		}
+
 		#intro > .style2
 		{
 			font-weight: 700;
@@ -815,17 +815,17 @@
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
 		}
-		
+
 			#intro > .style2 a
 			{
 				color: inherit;
 				text-decoration: none;
 			}
-		
+
 		#intro > .style3
 		{
 		}
-		
+
 /*********************************************************************************/
 /* Highlights                                                                    */
 /*********************************************************************************/
@@ -838,7 +838,7 @@
 		{
 			text-align: center;
 		}
-		
+
 			#highlights .highlight h3
 			{
 				color: #443266;
@@ -847,12 +847,12 @@
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
-			
+
 	#copyright
 	{
 		text-align: center;
 	}
-	
+
 		#copyright ul
 		{
 			display: inline-block;
@@ -861,13 +861,20 @@
 			color: #aaa;
 			color: rgba(255,255,255,0.25);
 		}
-		
+
 		#copyright a
 		{
 			color: inherit;
 		}
-		
+
 			#copyright a:hover
 			{
 				color: #fff;
 			}
+
+/*********************************************************************************/
+/* Utilities                                                                     */
+/*********************************************************************************/
+.text-align-center {
+	text-align: center;
+}
