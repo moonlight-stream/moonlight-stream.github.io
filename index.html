@@ -4,13 +4,17 @@
     html5up.net | @n33co
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 
 <head>
     <title>Moonlight Game Streaming</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
+    <meta name="description" content="Moonlight allows you to stream your collection of games from your GameStream-compatible PC to any supported device and play them remotely." />
     <meta name="keywords" content="" />
+    <meta name="theme-color" content="#434343"/>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="canonical" href="https://moonlight-stream.com"/>
+    <link rel="alternate" hreflang="en" href="https://moonlight-stream.com" />
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
@@ -89,7 +93,7 @@
         <div class="title">Moonlight in Action</div>
         <div id="main" class="container">
             <!-- Image -->
-            <a href="#" class="image featured">
+            <a href="#" class="image featured" title="Stream to all your devices">
                 <img src="images/steam_framed.png" alt="" />
             </a>
             <!-- Features -->
@@ -212,11 +216,11 @@
         </div>
     </div>
     </div>
-	
+
 	    <!-- Moonlight getting started tab -->
     <div class="wrapper style2">
         <div class="title">Getting Started</div>
-		<section id="intro" class="container">
+		<section class="container text-align-center">
         <p class="style3">Are you ready to stream? Check out our wiki for tips on how to get started.
 		</br>
         Having trouble? Check the wiki's troubleshooting page or join our Discord for help.
@@ -242,11 +246,11 @@
             </div>
         </section>
     </div>
-	
+
     <!--- Who We Are -->
-    <div id="intro-wrapper" class="wrapper style1">
+    <div class="wrapper style1">
         <div class="title">Who We Are</div>
-        <section id="intro" class="container">
+        <section id="whoweare" class="container text-align-center">
             <p class="style3">Moonlight was created by <a href="https://case.edu">Case Western Reserve University</a> students as a project at the <a href="https://mhacks.org">MHacks</a> hackathon in 2013 and further developed at MHacks and <a href="http://hack.cwru.edu">HackCWRU</a> in 2014.
                 <br />
                 <br />
@@ -258,24 +262,24 @@
                     <li><a href="https://github.com/yetanothername" class="user-mention">Andrew Hennessy</a></li>
                     <li><a href="https://github.com/raidancampbell" class="user-mention">Aidan Campbell</a></li>
                 </ul>
-                Feel free to send any of us an email at our firstname@moonlight-stream.com or to all of us at <a href="mailto:info@moonlight-stream.com" target="_top">info@moonlight-stream.com</a>. We do get a high volume of mail and unfortunately can't answer it all, so please check if your issue is covered in the <a href="https://github.com/moonlight-stream/moonlight-docs/wiki/Troubleshooting">troubleshooting guide</a> before reaching out. To report bugs, please follow the steps <a href = "https://github.com/moonlight-stream/moonlight-docs/wiki/Get-In-Touch">here</a>.
+                Feel free to send any of us an email at our firstname@moonlight-stream.com or to all of us at <a href="mailto:info@moonlight-stream.com" target="_top">info@moonlight-stream.com</a>. We do get a high volume of mail and unfortunately can't answer it all, so please check if your issue is covered in the <a href="https://github.com/moonlight-stream/moonlight-docs/wiki/Troubleshooting">troubleshooting guide</a> before reaching out. To report bugs, please <a href = "https://github.com/moonlight-stream/moonlight-docs/wiki/Get-In-Touch">follow the steps here</a>.
                 </p>
             <p class="style3">
                 Want to keep up with the latest Moonlight updates? Follow along with development at the <a href="https://forum.xda-developers.com/showthread.php?t=2505510">XDA Developers Thread</a>.
             </p>
-            We are not accepting monetary donations at this time and currently have no plans to do so. Instead, please direct any donations toward the <a href="http://hacsoc.org">Case Western Reserve University Hacker Society</a> - the birthplace of Moonlight, Hacker Society is a club for CWRU students of all skill levels and backgrounds to explore computer science outside of school. If you still insist on donating, you may do so <a href="https://securelb.imodules.com/s/1526/index.aspx?sid=1526&gid=1&pgid=381">here</a>. ("Choose another area", specify "Hacker Society" under special instructions). Thank you!
+            We are not accepting monetary donations at this time and currently have no plans to do so. Instead, please direct any donations toward the <a href="http://hacsoc.org">Case Western Reserve University Hacker Society</a> - the birthplace of Moonlight, Hacker Society is a club for CWRU students of all skill levels and backgrounds to explore computer science outside of school. If you still insist on donating, you <a href="https://securelb.imodules.com/s/1526/index.aspx?sid=1526&gid=1&pgid=381">may do so here</a>. ("Choose another area", specify "Hacker Society" under special instructions). Thank you!
         </section>
         <!-- FOOTER  -->
-        <section id="intro" class="container">
+        <section id="footer" class="container">
             <br />
             <br />
             <p>Apple, the Apple logo, iPhone, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play, and the Google Play logo are trademarks of Google Inc. GeForce, Shield, and GameStream are trademarks of NVIDIA Corporation. All other trademarks are property of their respective owners.</p>
             <footer class="inner">
-                <p>&copy;
-                    <script type="text/javascript">
-                    var d = new Date();
-                    document.write(d.getFullYear());
-                    </script>. All rights reserved.</p>
+              <p>&copy; <span class="year">2018</span>. All rights reserved.</p>
+              <script type="text/javascript">
+              var d = new Date();
+              document.querySelector('.year').innerText = d.getFullYear();
+              </script>
             </footer>
         </section>
     </div>
