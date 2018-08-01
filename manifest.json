@@ -41,5 +41,15 @@
   "start_url": "/?source=homescreen",
   "background_color": "#434343",
   "display": "browser",
-  "theme_color": "#3367D6"
+  "theme_color": "#3367D6",
+  "prefer_related_applications": true,
+  "related_applications": [
+  {
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.limelight",
+    "id": "com.limelight"
+  }, {
+    "platform": "itunes",
+    "url": "https://itunes.apple.com/us/app/moonlight-game-streaming/id1000551566"
+  }]
 }
