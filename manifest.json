@@ -3,6 +3,31 @@
   "name": "Moonlight Game Streaming",
   "icons": [
     {
+      "src": "/images/manifest/icons-36.png",
+      "type": "image/png",
+      "sizes": "36x36"
+    },
+    {
+      "src": "/images/manifest/icons-48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/images/manifest/icons-72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/images/manifest/icons-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/manifest/icons-144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
       "src": "/images/manifest/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
@@ -16,5 +41,15 @@
   "start_url": "/?source=homescreen",
   "background_color": "#434343",
   "display": "browser",
-  "theme_color": "#3367D6"
+  "theme_color": "#3367D6",
+  "prefer_related_applications": true,
+  "related_applications": [
+  {
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.limelight",
+    "id": "com.limelight"
+  }, {
+    "platform": "itunes",
+    "url": "https://itunes.apple.com/us/app/moonlight-game-streaming/id1000551566"
+  }]
 }
