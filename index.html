@@ -320,6 +320,15 @@
 			</footer>
 		</section>
 	</div>
+
+	<!-- GA outbound link events -->
+	<script>
+		!function(t){"use strict";var e=window.location.host;t("body").on("click",function(n){
+		function o(){document.location=a}if(!n.isDefaultPrevented()&&"function"==typeof ga){
+		var i=t(n.target).closest("a");if(1==i.length&&e!=i[0].host){n.preventDefault();
+		var a=i[0].href;ga("send",{hitType:"event",eventCategory:"outbound",eventAction:"link",
+		eventLabel:a,hitCallback:o}),setTimeout(o,1e3)}}})}(jQuery);
+	</script>
 </body>
 
 </html>
