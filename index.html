@@ -27,6 +27,16 @@
 	<link rel="icon" type="image/png" href="/images/manifest/icons-192.png" sizes="192x192">
 	<link rel="canonical" href="https://moonlight-stream.com"/>
 	<link rel="alternate" hreflang="en" href="https://moonlight-stream.com" />
+
+	<!-- Google Analytics -->
+	<script>
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-47339221-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<!-- End Google Analytics -->
+
 	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.dropotron.min.js"></script>
@@ -310,23 +320,6 @@
 			</footer>
 		</section>
 	</div>
-	<!-- Google Analytics -->
-	<!-- This script makes the page take longer to load, unfortunately -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-47339221-1', 'auto');
-  ga('send', 'pageview');
-
-  !function(t){"use strict";var e=window.location.host;t("body").on("click",function(n){
-  function o(){document.location=a}if(!n.isDefaultPrevented()&&"function"==typeof ga){
-  var i=t(n.target).closest("a");if(1==i.length&&e!=i[0].host){n.preventDefault();
-  var a=i[0].href;ga("send",{hitType:"event",eventCategory:"outbound",eventAction:"link",
-  eventLabel:a,hitCallback:o}),setTimeout(o,1e3)}}})}(jQuery);
-</script>
 </body>
 
 </html>
