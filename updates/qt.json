@@ -2,25 +2,25 @@
     {
         "platform": "windows",
         "arch": "i386",
-        "version": "1.1.1",
+        "version": "1.2.0",
         "browser_url": "https://github.com/moonlight-stream/moonlight-qt/releases"
     },
     {
         "platform": "windows",
         "arch": "x86_64",
-        "version": "1.1.1",
+        "version": "1.2.0",
         "browser_url": "https://github.com/moonlight-stream/moonlight-qt/releases"
     },
     {
         "platform": "osx",
         "arch": "x86_64",
-        "version": "1.1.1",
+        "version": "1.2.0",
         "browser_url": "https://github.com/moonlight-stream/moonlight-qt/releases"
     },
     {
         "platform": "steamlink",
         "arch": "arm",
-        "version": "1.1.1",
+        "version": "1.2.0",
         "browser_url": "https://github.com/moonlight-stream/moonlight-qt/releases"
     }
 ]
