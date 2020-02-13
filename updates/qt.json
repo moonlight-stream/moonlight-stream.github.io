@@ -20,7 +20,7 @@
     {
         "platform": "steamlink",
         "arch": "arm",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "browser_url": "https://github.com/moonlight-stream/moonlight-qt/releases"
     }
 ]
