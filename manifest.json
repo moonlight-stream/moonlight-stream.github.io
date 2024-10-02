@@ -44,15 +44,26 @@
   "theme_color": "#3367D6",
   "prefer_related_applications": true,
   "related_applications": [
-  {
-    "platform": "chrome_web_store",
-    "id": "gemamigbbenahjlfnmlfdjhdnkpbkfjj"
-  }, {
-    "platform": "play",
-    "url": "https://play.google.com/store/apps/details?id=com.limelight",
-    "id": "com.limelight"
-  }, {
-    "platform": "itunes",
-    "url": "https://itunes.apple.com/us/app/moonlight-game-streaming/id1000551566"
-  }]
+    {
+      "platform": "chrome_web_store",
+      "id": "gemamigbbenahjlfnmlfdjhdnkpbkfjj"
+    },
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.limelight",
+      "id": "com.limelight"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/us/app/moonlight-game-streaming/id1000551566"
+    },
+    {
+      "platform": "amazon",
+      "url": "https://www.amazon.com/gp/product/B00JK4MFN2"
+    },
+    {
+      "platform": "f-droid",
+      "url": "https://f-droid.org/packages/com.limelight"
+    }
+  ]
 }
